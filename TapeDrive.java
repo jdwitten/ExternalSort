@@ -44,7 +44,6 @@ public class TapeDrive {
      * The numbers must be random in the full integer range.
      */
     public static TapeDrive generateRandomTape(int capacity) {
-        // TODO: Implement me for 10 points
     	TapeDrive tape_drive = new TapeDrive(capacity);
     	Random random = new java.util.Random();
     	for(int i=0; i< capacity; i++){
