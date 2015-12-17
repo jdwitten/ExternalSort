@@ -19,7 +19,6 @@ public class TapeSorter {
      * Sorts the first `size` items in memory via quicksort
      */
     public void quicksort(int size) {
-        // TODO: Implement me for 10 points
     	quickSortPrivate(memory, 0, size);
     }
     private void quickSortPrivate(int[] arr, int left, int right){
@@ -93,7 +92,6 @@ public class TapeSorter {
      * out2: 0 1 3 7 4 _ _ _ _ _ _ _ _
      */
     public void initialPass(TapeDrive in, TapeDrive out1, TapeDrive out2) {
-        // TODO: Implement me for 15 points!
     	int numberIn=0;
     	int numberOut=0;
     	int last_number=0;
@@ -156,7 +154,6 @@ public class TapeSorter {
      *                             ^
      */
     public void mergeChunks(TapeDrive in1, TapeDrive in2, TapeDrive out, int size1, int size2) {
-        // TODO: Implement me for 10 points
     	int n1=0; int n2=0;
 		int i=0;  int j=0;
 		boolean firstloop = true;
@@ -247,7 +244,6 @@ public class TapeSorter {
      * out2 ->
      */
     public void doRun(TapeDrive in1, TapeDrive in2, TapeDrive out1, TapeDrive out2, int runNumber) {
-        // TODO: Implement me for 15 points
     	//Reset all of the tapes
     	in1.reset();
     	in2.reset();
@@ -304,7 +300,6 @@ public class TapeSorter {
      * Drives `t2`, `t3`, and `t4` are empty and are to be used in the sorting process.
      */
     public void sort(TapeDrive t1, TapeDrive t2, TapeDrive t3, TapeDrive t4) {
-        // TODO: Implement me for 15 points
     	//reset all of the tapes
     	t1.reset();
     	t2.reset();
